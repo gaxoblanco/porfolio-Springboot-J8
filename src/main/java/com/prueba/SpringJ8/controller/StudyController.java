@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package com.prueba.SpringJ8.controller;
 
 import com.prueba.SpringJ8.model.Study;
@@ -14,13 +11,11 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 
-/**
- *
- * @author Kraken 2
- */
+@RestController
 public class StudyController {
-        @Autowired
+    @Autowired
     public IStudyService estServ;
     
     @PostMapping("/new/estudio")
