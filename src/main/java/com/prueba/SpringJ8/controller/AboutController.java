@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class AboutController {
     
+    
         @Autowired
     private IAboutService aboutServ;
     
@@ -23,6 +24,7 @@ public class AboutController {
     public void agregarAbout(@RequestBody About abo) {
         aboutServ.agregarAbout(abo);
     }
+    
 
     @GetMapping("/ver/about")
     @ResponseBody

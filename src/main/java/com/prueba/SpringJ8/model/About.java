@@ -18,16 +18,6 @@ public class About {
     private String titulo;
     private String descripcion;
     private String foto;
-
-    public About() {
-    }
-
-    public About(Long id, String titulo, String descripcion, String foto) {
-        this.id = id;
-        this.titulo = titulo;
-        this.descripcion = descripcion;
-        this.foto = foto;
-    }
     
     
 }
