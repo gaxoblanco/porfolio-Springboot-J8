@@ -17,6 +17,7 @@ public class Study {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String estudiado;
+    private String institucion;
     private String descripcion;
     private Date ini;
     private Date fin;
