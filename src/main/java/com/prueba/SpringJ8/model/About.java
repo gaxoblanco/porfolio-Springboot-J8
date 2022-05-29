@@ -17,6 +17,7 @@ public class About {
     private Long id;
     private String titulo;
     private String descripcion;
+    private String descripcion2;
     private String foto;
     
     
